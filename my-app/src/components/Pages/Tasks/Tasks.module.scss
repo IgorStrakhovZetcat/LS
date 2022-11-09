@@ -1,0 +1,132 @@
+.root {
+    width: 800px;
+    margin: 20px auto;
+}
+
+.boxTitlePage {
+    display: flex;
+}
+
+.title {
+    font-size: 30px;
+    margin-left: 6px;
+}
+
+.link {
+    margin-top: 5px;
+    text-decoration: none;
+}
+
+.boxTask {
+    border: 1px solid #474444;
+    border-radius: 20px;
+    width: 700px;
+    margin: 10px;
+    height: 100px;
+    display: flex;
+    margin-top: 25px;
+    position: relative;
+
+    &:hover {
+        background-color: #E7E7E7;
+    }
+}
+
+.img {
+    background-color: #474444;
+    margin: 20px;
+    height: 60px;
+    width: 60px;
+
+}
+
+.boxTitle {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.date {
+    margin-top: 42px;
+    margin-left: 30px;
+}
+
+.status {
+    position: absolute;
+    right: 0;
+    margin: 35px;
+    padding: auto;
+}
+
+.boxDetails {
+    margin: 100px auto;
+    display: flex;
+    width: 700px;
+    height: 600px;
+    background-color: #E7E7E7;
+    box-shadow: 24;
+
+}
+
+
+.imgDT {
+    background-color: #474444;
+    margin: 30px;
+    height: 60px;
+    width: 60px;
+}
+
+.boxTitleDT {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.statusDT {
+    position: absolute;
+    margin: 140px 80px;
+}
+
+.dateDT {
+    position: absolute;
+    margin: 140px 220px;
+}
+
+.assigneeDT {
+    position: absolute;
+    margin: 140px 450px;
+}
+
+.descrtiptionDT {
+    position: absolute;
+    margin: 220px 80px;
+}
+
+.relatedTasks {
+    position: absolute;
+    margin: 320px 0px;
+}
+
+
+.boxTaskOT {
+    border: 1px solid #474444;
+    width: 680px;
+    height: 100px;
+    display: flex;
+    position: relative;
+
+
+}
+
+.boxTasksOT {
+    height: 230px;
+    overflow-y: scroll;
+}
+
+.imgOT {
+    background-color: #474444;
+    margin: 20px;
+    height: 60px;
+    width: 60px;
+}

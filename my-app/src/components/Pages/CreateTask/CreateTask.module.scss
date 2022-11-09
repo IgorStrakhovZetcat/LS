@@ -1,0 +1,94 @@
+.mainBox {
+    margin: 0px auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    background-color: #E7E7E7;
+    height: 150px;
+    width: 700px;
+}
+
+.img {
+    background-color: #474444;
+    margin: 25px;
+    height: 70px;
+    width: 70px;
+}
+
+.boxTitle {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.boxAssignee {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.buttonGroup {
+    margin: 0 auto 50px;
+    background-color: #E7E7E7;
+    height: 100px;
+    width: 700px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+
+}
+
+.link {
+    text-decoration: none;
+}
+
+.boxDescription {
+    margin: 0 auto;
+    background-color: #E7E7E7;
+    height: 150px;
+    width: 700px;
+}
+
+.relatedTasks {
+    background-color: #E7E7E7;
+    margin: 0px auto;
+    width: 700px;
+}
+
+.boxSelect {
+    background-color: #E7E7E7;
+    width: 700px;
+}
+
+.boxTaskOT {
+    border: 1px solid #474444;
+    width: 680px;
+    height: 100px;
+    display: flex;
+    position: relative;
+
+}
+
+.boxTasksOT {
+    height: 230px;
+    overflow-y: scroll;
+}
+
+.imgOT {
+    background-color: #474444;
+    margin: 20px;
+    height: 60px;
+    width: 60px;
+}
+
+.dateOT {
+    margin-top: 42px;
+    margin-left: 30px;
+}
+
+.statusOT {
+    position: absolute;
+    right: 0;
+    margin: 35px;
+    padding: auto;
+}
